@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+.Tous {
+    /* text-align: center; */
+    color: white;
+    font-size: 130%;
+    font-family: 'Libre Caslon Text';
+    background-image: url(../Components/Assets/poisson.gif);
+    
+     
+}
+
+
+.Titre {
+    
+    text-align: center;
+    font-family: monospace;
+    font-size: 150%;
+    
+    
+    
+}
+
+.Texte {
+    text-align: justify;
+    border-right: 400px solid transparent;
+    border-left: 400px solid transparent;
+    font-family: monospace;
+   
+}
+
+.Signature {
+    border-left: 500px solid transparent;
+    font-family: 'Alex Brush';
+    font-size: 160%;
+}

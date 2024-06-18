@@ -1,0 +1,176 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    box-shadow:   1px 3px  rgb(155, 255, 5);
+    
+    
+    
+}
+
+.navbar a {
+    color: black;
+    color: inherit;
+}
+
+.nav-logo a {
+    /* width: 100px;
+    height: 100px; */
+    color: blue;
+    font-size: 40px;
+    font-family: monospace;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.home {
+    /* width: 100px;
+    height: 100px; */
+    
+    font-size: 20px;
+    font-family: monospace;
+    position: absolute;
+    left: 18%;
+    top: 38px;
+    cursor: pointer;
+    
+}
+
+.home:hover{
+    background-color: gold;
+}
+.connexion:hover{
+    background-color: gold;
+}
+.histoire:hover{
+    background-color: gold;
+}
+.trouver:hover{
+    background-color: gold;
+}
+.produits a:hover{
+    background-color: gold;
+}
+
+
+
+
+.produits {
+    /* width: 100px;
+    height: 100px; */
+    
+    font-size: 18px;
+    font-family: monospace;
+    position: absolute;
+    left: 24%;
+    top: 40px;
+    cursor: pointer;
+}
+
+.histoire {
+    /* width: 100px;
+    height: 100px; */
+    
+    font-size: 18px;
+    font-family: monospace;
+    position: absolute;
+    left: 35%;
+    top: 40px;
+    cursor: pointer;
+}
+
+.trouver {
+    /* width: 100px;
+    height: 100px; */
+    
+    font-size: 18px;
+    font-family: monospace;
+    position: absolute;
+    left: 48%;
+    top: 40px;
+    cursor: pointer;
+}
+
+.connexion {
+    /* width: 100px;
+    height: 100px; */
+    
+    font-size: 18px;
+    font-family: monospace;
+    position: absolute;
+    right: 15%;
+    top: 40px;
+    cursor: pointer;
+}
+
+.search {
+    /* width: 100px;
+    height: 100px; */
+    
+    font-size: 18px;
+    font-family: monospace;
+    position: absolute;
+    right: 25%;
+    top: 20px;
+    z-index: 0;
+    
+}
+
+.favorite img {
+    
+    position: absolute;
+    right: 10%;
+    top: 40px;
+    cursor: pointer;
+}
+
+.panier img {
+    
+    position: absolute;
+    right: 7%;
+    top: 40px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    background-color: white; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    z-index: 1;
+    padding: 10px;
+    display: flex; /* Afficher les sous-catégories en ligne */
+  flex-wrap: wrap;
+  }
+
+  .sub-categories {
+
+    font-size: 13px;
+    font-weight: 100;
+
+  }
+
+  .category {
+    font-size: 16px;
+    font-weight: 600;
+
+  }
+
+  .sub-categories p {
+    margin-right: 30px; 
+  }
+
+
+
+.category p:hover,
+.sub-categories p:hover {
+  text-decoration: underline; 
+}
+
+.nav-menu a {
+    text-decoration: none; /* Retire le soulignement des liens dans le menu */
+  }
+
+
+
+

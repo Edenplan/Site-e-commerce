@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+.titre{
+    font-size: 300%;
+    text-align: center;
+    font-family: monospace;
+    
+}
+
+.complete{
+    font-family: monospace;
+    text-align: center;
+    border-right: 500px solid transparent;
+    border-left: 500px solid transparent;
+    
+}
+
+.buttonsc{
+    text-align:center;
+    font-family: monospace;
+}
+
+.buttoncc{
+    text-align:center;
+    font-family: monospace;
+}
+
+.MDP {
+    text-align:center;
+    
+    cursor: pointer;
+}
+
+.MDP:hover {
+    text-decoration: underline;
+    color: red;
+
+}
